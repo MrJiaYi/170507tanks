@@ -21,7 +21,7 @@ public class Followtarget : MonoBehaviour {
         if (player1 == null || player2 == null) return;
         transform.position = offset + (player1.position + player2.position) / 2;
         float distance = Vector3.Distance(player1.position, player2.position);
-        float size = distance * 0.5f;
+        float size = distance * 0.75f;
         camera.orthographicSize = size;
 
     }

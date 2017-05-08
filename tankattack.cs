@@ -6,7 +6,7 @@ public class tankattack : MonoBehaviour {
 
     public GameObject shellPrefab;
     public KeyCode firekey = KeyCode.Space;
-    public float shellspeed = 10;
+    public float shellspeed = 30;
     public AudioClip shotAudio;
 
     private Transform firePosition;
